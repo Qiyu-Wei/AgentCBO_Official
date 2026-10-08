@@ -1,0 +1,21 @@
+# Python 3.12. Direct dependencies from the current execution environment.
+# Model serving (vLLM) is a separate service and is not required by this client.
+torch==2.10.0
+botorch==0.17.2
+gpytorch==1.15.2
+
+# Causal discovery
+causal-learn==0.1.4.5
+networkx==3.6.1
+
+# LLM
+openai==2.30.0
+tenacity==9.1.4
+pydantic==2.12.5
+httpx==0.28.1
+
+# Scientific computing
+numpy==2.2.6
+scipy==1.17.1
+pandas==3.0.1
+scikit-learn==1.8.0
